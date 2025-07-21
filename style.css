@@ -1,0 +1,85 @@
+body {
+  font-family: Georgia, Times New Roman;
+  padding: 20px;
+  background-color: skyblue
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 250px;
+  font-size: 15px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#taskList {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+#taskList li {
+  background-color: lightblue;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+#taskList li button {
+  background-color: whitesmoke;
+  color:ghostwhite;
+  border: none;
+  padding: 5px 10px;
+  float: right;
+  border-radius: 3px;
+}
+
+
+<!--list-->
+    <ul class="List">
+    <ul class="taskinput">
+    <input type="checkbox" id="taskinput1" >
+    <label for="taskinput1"> Buy groceries</label>
+    <button class="editBtn">🖋️</button>
+    <button class="deleteBtn">🗑️</button>
+    </ul>
+   
+    <ul class="List">
+    <ul class="taskinput">
+    <input type="checkbox" id="taskinput2" >
+    <label for="taskinput2"> Write a blog post</label>
+    <button class="editBtn">🖋️</button>
+    <button class="deleteBtn">🗑️</button>
+    </ul>
+    
+    <ul class="List">
+    <ul class="taskinput">
+    <input type="checkbox" id="taskinput3" >
+    <label for="taskinput3"> Read a book</label>
+    <button class="editBtn">🖋️</button>
+    <button class="deleteBtn">🗑️</button>
+    </ul>
+
+    <ul class="List">
+    <ul class="taskinput">
+    <input type="checkbox" id="taskinput4" >
+    <label for="taskinput4"> Pay bills</label>
+    <span class="taskDate"> M / M</span>
+    <button class="editBtn">🖋️</button>
+    <button class="deleteBtn">🗑️</button>
+    </ul>
+     
+    <ul class="List">
+    <ul class="taskinput">
+    <input type="checkbox" id="taskinput5" >
+    <label for="taskinput5"> Call Alice</label>
+    <span class="taskDate"> Tomorrow </span>
+    <button class="editBtn">🖋️</button>
+    <button class="deleteBtn">🗑️</button>
+    </ul>
